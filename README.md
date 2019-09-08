@@ -1,6 +1,6 @@
 # csv-filter
 
-This is a command line utility written in Rust that applies filtering operations on CSV files. 
+A command line utility written in Rust that applies filtering operations on CSV files. 
 It is able to reduce the contents of an input CSV file based on one or many filtering criteria. You can use this tool to split data from one large CSV file into multiple smaller ones which 
 * contain only a subset of the columns from the original file, and/or
 * contain only a subset of values that may appear in a column, and/or
