@@ -69,6 +69,20 @@ You can use `csv-filter` as a library by adding the following dependency to your
 csv-filter = "0.1"
 ```
 
+You can then use it to filter CSV files by providing the following information:
+
+```rust
+extern crate csv_filter;
+
+csv_filter::process(
+        "path/to/input_file.csv",   // path to input file
+        "path/to/config.json",      // path to config file
+        "output_directory",         // path to base output directory
+        false,                      // if sort functionality should be turned off
+        8,                          // number of threads for filtering stage
+        4,                          // number of threads for sorting stage
+    );
+```
 ## Disclaimer
 This tool is a WIP and hence may not perform optimally in certain cases. At the moment the progress is as follows:
  
