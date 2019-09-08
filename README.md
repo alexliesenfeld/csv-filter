@@ -1,6 +1,6 @@
 # csv-filter
 
-This is a command line utility written in Rust that applies filtering operations on CSV files. 
+This is a command line utility and a library written in Rust that applies filtering operations on CSV files. 
 It is able to reduce the contents of an input CSV file based on one or many filtering criteria. You can use this tool to split data from one large CSV file into multiple smaller ones which 
 * contain only a subset of the columns from the original file, and/or
 * contain only a subset of values that may appear in a column, and/or
@@ -60,6 +60,14 @@ Example (executable):
 
 Example (from cargo):
 `cargo run --release -- --configuration my_filter_configuration.json --input my_input_file.csv --no-sort --filter-parallelism 8 --sort-parallelism 4`
+
+## Use as a library
+You can use `csv-filter` as a library by adding the following dependency to your `Cargo.toml`: 
+
+```toml
+[dependencies]
+csv-filter = "0.1"
+```
 
 ## Disclaimer
 This tool is a WIP and hence may not perform optimally in certain cases. At the moment the progress is as follows:
