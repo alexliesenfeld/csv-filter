@@ -17,27 +17,27 @@ The configuration follows the form:
   {
     "filters": [
       {
-        "column": "my-column-1", // Name of the column from the input file
-        "include": true,         // Whether to include the column in the output file
-        "values": [              // List all values that are allowed to appear in the output file.
+        "column": "my-column-1",    // Name of the column from the input file
+        "include": true,            // Whether to include the column in the output file
+        "values": [                 // List all values that are allowed to appear in the output file.
           "value1",
           "value2",
           "value3"
         ]
       },
       {
-        "column": "my-column-2", // Name of the column from the input file   
-        "include": true,         // Whether to include the column in the output file
-        "max": "2010-01-01",     // Minimum value to appear in the output file (alphanumeric sorting)      
-        "min": "2015-01-01"      // Maximum value to appear in the output file (alphanumeric sorting)      
+        "column": "my-column-2",    // Name of the column from the input file   
+        "include": true,            // Whether to include the column in the output file
+        "max": "2010-01-01",        // Minimum value to appear in the output file (alphanumeric sorting)      
+        "min": "2015-01-01"         // Maximum value to appear in the output file (alphanumeric sorting)      
       },
       {
-        "column": "my-column-3", // Name of the column from the input file   
-        "include": true         // Whether to include the column in the output file
+        "column": "my-column-3",    // Name of the column from the input file   
+        "include": true             // Whether to include the column in the output file
       }       
     ],
-    "output": "output_file_1.csv", // Name of the outout file where filtering results are being written to
-    "sort_columns": [              // Columns to sort the whole output file by  
+    "output": "output_file_1.csv",  // Name of the outout file where filtering results are being written to
+    "sort_columns": [               // Columns to sort the whole output file by  
       "my-column-1",
       "my-column-3"
     ]
