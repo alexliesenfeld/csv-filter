@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Alexander Liesenfeld <alexander.liesenfeld@outlook.com>"]
 edition = "2018"
 license = "MIT"
-description = "A fun game where you guess what number the computer has chosen."
+description = "A command line utility that applies filtering operations on CSV files."
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
