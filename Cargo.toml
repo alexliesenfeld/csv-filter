@@ -1,0 +1,24 @@
+[package]
+name = "csv-filter"
+version = "0.1.0"
+authors = ["Alexander Liesenfeld <alexander.liesenfeld@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+structopt = "0.2"
+
+csv-filter-filter = { path = "./lib/filter", version = "0.1" }
+csv-filter-sort = { path = "./lib/sort", version = "0.1" }
+csv-filter-config = { path = "./lib/config", version = "0.1" }
+
+[dev-dependencies]
+tempfile = "3.1"
+
+[workspace]
+members = [
+  "lib/filter",
+  "lib/sort",
+  "lib/config",
+  "lib/util"
+]

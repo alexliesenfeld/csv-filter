@@ -1,0 +1,34 @@
+[
+  {
+    "filters": [
+      {
+        "column": "col3",
+        "include": true
+      },
+      {
+        "column": "col1",
+        "include": true
+      },
+      {
+        "column": "col4",
+        "include": true
+      },
+      {
+        "column": "col2",
+        "include": true
+      },
+      {
+        "column": "col5",
+        "include": true
+      }
+    ],
+    "output": "f1.csv",
+    "uuid": "44108b50-27d0-4c7d-8d0b-387d4b5e9148",
+    "sort_columns" : [
+      "col2",
+      "col1",
+      "col4",
+      "col3"
+    ]
+  }
+]

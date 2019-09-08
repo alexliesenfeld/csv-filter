@@ -1,0 +1,30 @@
+[
+  {
+    "filters": [
+      {
+        "column": "col1",
+        "include": true
+      },
+      {
+        "column": "col3",
+        "include": true
+      }
+    ],
+    "output": "f1.csv",
+    "uuid": "44108b50-27d0-4c7d-8d0b-387d4b5e9148"
+  },
+  {
+    "filters": [
+      {
+        "column": "col2",
+        "include": true
+      },
+      {
+        "column": "col3",
+        "include": true
+      }
+    ],
+    "output": "f2.csv",
+    "uuid": "54108b50-27d0-4c7d-8d0b-387d4b5e9148"
+  }
+]

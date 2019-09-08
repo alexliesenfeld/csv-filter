@@ -1,0 +1,35 @@
+[
+  {
+    "filters": [
+      {
+        "column": "col1",
+        "include": true,
+        "values": [
+          "val4",
+          "val10",
+          "val16"
+        ]
+      },
+      {
+        "column": "col2",
+        "include": true,
+        "values": [
+          "val5",
+          "val17",
+          "val8"
+        ]
+      },
+      {
+        "column": "col3",
+        "include": true,
+        "values": [
+          "val6",
+          "val18",
+          "val24"
+        ]
+      }
+    ],
+    "output": "f1.csv",
+    "uuid": "44108b50-27d0-4c7d-8d0b-387d4b5e9148"
+  }
+]

@@ -1,0 +1,9 @@
+col1,col2,col3,col4,col5,col6
+zzz,aaa,555,777,§,#
+aaa,aaa,555,777,&,#
+aaa,xxx,555,777,ß,#
+zzz,aaa,555,666,_,#
+zzz,aaa,555,555,0,#
+aaa,aaa,555,555,*,#
+aaa,aaa,444,555,#,#
+aaa,aaa,444,333,ä,#

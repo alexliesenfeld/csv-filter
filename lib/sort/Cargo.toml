@@ -1,0 +1,11 @@
+[package]
+name = "csv-filter-sort"
+version = "0.1.0"
+authors = ["Alexander Liesenfeld <alexander.liesenfeld@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+csv-filter-config = { path = "../config", version = "0.1" }
+csv-filter-util = { path = "../util", version = "0.1" }
+crossbeam = "0.7"
+csv = "1.1"

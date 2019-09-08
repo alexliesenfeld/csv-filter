@@ -1,0 +1,12 @@
+[package]
+name = "csv-filter-filter"
+version = "0.1.0"
+authors = ["Alexander Liesenfeld <alexander.liesenfeld@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+csv = "1.1"
+hashbrown = { version = "0.6", features = ["serde"] }
+crossbeam = "0.7"
+csv-filter-config = { path = "../config", version = "0.1" }
+csv-filter-util = { path = "../util", version = "0.1" }

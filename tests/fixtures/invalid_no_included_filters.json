@@ -1,0 +1,20 @@
+[
+  {
+    "filters": [
+      {
+        "column": "col1",
+        "include": false
+      },
+      {
+        "column": "col2",
+        "include": false
+      },
+      {
+        "column": "col3",
+        "include": false
+      }
+    ],
+    "output": "f1.csv",
+    "uuid": "44108b50-27d0-4c7d-8d0b-387d4b5e9148"
+  }
+]
