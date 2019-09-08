@@ -45,6 +45,9 @@ The configuration follows the form:
   ...
 ]
 ```
+
+Please note that you can specify as much `filters` objects as you like.
+
 ## How to use
 Just clone this repo and build it using cargo (`cargo build --release`). Please find the executable `csv-filter` in the `target/release` directory. You will need Rust and Cargo installed on your machine to build this tool.
 
